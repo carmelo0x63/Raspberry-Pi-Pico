@@ -13,7 +13,7 @@ Additionally, let's install `rshell`:
 ```
 $ python3 -m pip install rshell
 ```
-**NOTE**: rshell is a "remote shell for working with MicroPython boards".
+**NOTE**: `rshell` is a "remote shell for working with MicroPython boards".
 Its home page is https://github.com/dhylands/rshell.
 
 ### Connect to Raspberry Pico (USB serial)
@@ -60,7 +60,7 @@ led.toggle()
 ```
 
 One can go on forever clicking arrow UP, ENTER, arrow UP, ENTER...</br>
-How do we properly program the board? rshell comes to rescue...
+How do we properly program the board? `rshell` comes to rescue...
 1. create a simple program:
 ```
 from machine import Pin
