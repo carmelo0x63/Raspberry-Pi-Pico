@@ -76,7 +76,10 @@ while True:
 
 2. connect to the board with `rshell`
 
-3. copy the script into the approproate position, also rename it to `main.py`
+3. copy the script into the appropriate position, also rename it to `main.py`:
+```
+cp <filename.py> /pyboard/main.py
+```
 
-4. hard reset the board
+4. hard reset the board by disconnecting/reconnecting the USB cable
 
